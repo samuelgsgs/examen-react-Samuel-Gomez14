@@ -28,7 +28,7 @@ class Menu extends React.Component {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav>
                   {PaginasApp.map((item) => {
                     return (
                       <Nav.Link key={uuid()} as={Link} to={item.path}>
